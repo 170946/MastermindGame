@@ -2,7 +2,7 @@ import java.util.concurrent.ThreadLocalRandom;
 public class Config
 {
     public int a, b, c, d;
-    public Config(){a = ThreadLocalRandom.current().nextInt(1, 7); b = ThreadLocalRandom.current().nextInt(1, 7); c = ThreadLocalRandom.current().nextInt(1, 7); d = ThreadLocalRandom.current().nextInt(1, 7)}
+    public Config(){a = ThreadLocalRandom.current().nextInt(1, 7); b = ThreadLocalRandom.current().nextInt(1, 7); c = ThreadLocalRandom.current().nextInt(1, 7); d = ThreadLocalRandom.current().nextInt(1, 7);}
     
     public void setConfig(int a, int b, int c, int d)
     {

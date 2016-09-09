@@ -17,7 +17,7 @@ public class MastermindGame
                 System.out.println("Please only enter integers from 1 to 6");
                 j--;
             }
-            else if (guessA == trueConfig.getA() && guessB == trueConfig.getB() && guessC == trueConfig.getC() && guessD == trueConfig.getD()) 
+            else if (guessA == trueConfig.a && guessB == trueConfig.b && guessC == trueConfig.c && guessD == trueConfig.d) 
             {
                 System.out.println("Great job! You did it! You managed to guess the correct configuration in " + (j+1) + " tries!");
                 testForFail++;
